@@ -16,7 +16,7 @@ body{
     width: 98%;
     height: 70px;
     position: fixed;
-    bottom: 1px;
+    bottom: 2px;
     left: 1px;
     right: 1px;
     margin: auto;
@@ -39,7 +39,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1px;
+    gap: 8px;
     transition: 0.9s;
     
 }
@@ -48,24 +48,22 @@ body{
 }
 .menu__container .item span{
     opacity: 0;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     transition: 0.7s;
     display: none;
-    
-    
 }
 .menu__container .icon{
     /* padding-top: 10px; */
     /* margin-right: 8px; */
     opacity: 1;
-    font-size: 2.5rem;
+    font-size: 1.4rem;
     /* transform: translateY(-10px); */
     transition: all 0.5s;
 }
 
 .menu__container li.active{
     background: #fff;
-    padding: 4px 5px;
+    padding: 8px 5px;
     border-bottom: 4px solid #007eff;
     transition: 0.7s ease-out;
     
@@ -78,6 +76,7 @@ body{
 }
 .menu__container li.active .icon{
     color: #007eff;
+    font-size: 1.7rem;
     /* font-size: 2rem; */
     /* transform: translateX(0px); */
     
